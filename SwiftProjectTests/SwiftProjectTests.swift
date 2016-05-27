@@ -33,4 +33,28 @@ class SwiftProjectTests: XCTestCase {
         }
     }
     
+    //Test for Requests - Online only
+    func testGistRequest() {
+        
+        RequestManager.getDataFromGist(0, completion: { (result) in
+            let resultArray:[RequestManager.GistObject] = result!
+            XCTAssert(resultArray.count == 30)
+            
+            }) { (error) in
+                XCTAssert(false)
+        }
+    }
+    
+    //Test for return of objects from Coredata - need to have a one object registered
+    func testCoreData() {
+        
+        CoreDataManager.getJsonFromCore({ (result) in
+            
+            XCTAssert(result.count != 0)
+            
+            }) { (error) in
+                XCTAssert(false)
+        }
+    }
+    
 }

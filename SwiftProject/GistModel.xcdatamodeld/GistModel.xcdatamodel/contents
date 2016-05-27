@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="Content" syncable="YES">
+        <attribute name="gistContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gistID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Json" syncable="YES">
+        <attribute name="jsonFile" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="jsonID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jsonOwner" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Json" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Content" positionX="-54" positionY="0" width="128" height="75"/>
+    </elements>
+</model>

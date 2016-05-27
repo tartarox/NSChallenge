@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (3.4.0)
+  - HanekeSwift (0.10.1)
+  - JSONHelper (1.7.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - HanekeSwift
+  - JSONHelper
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
+  JSONHelper: b71808273ac60fb9e1878eb115370b0faac14a81
+
+PODFILE CHECKSUM: c5771c07b4a17bb4e387eeb0963d9e2752c20210
+
+COCOAPODS: 1.0.0
